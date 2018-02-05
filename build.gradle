@@ -3,6 +3,8 @@ apply plugin: 'java'
 //groupId = 'edu.gatech.oad.antlab'
 //version = '1.0'
 
+defaultTasks 'jar'
+
 dependencies {
     compile files('lib/resources.jar')
 }
